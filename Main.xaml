@@ -124,7 +124,7 @@
     <Sequence DisplayName="Fetch Temperature detail from API" sap:VirtualizedContainerService.HintSize="704,2915.2" sap2010:WorkflowViewState.IdRef="Sequence_4">
       <Sequence.Variables>
         <Variable x:TypeArguments="x:String" Default="Lucknow, IN" Name="strLocation" />
-        <Variable x:TypeArguments="x:String" Default="830c48f42f35e7a030bb2b666776360a" Name="strAPIKey" />
+        <Variable x:TypeArguments="x:String" Default="{Use_your_API_Key_Here}" Name="strAPIKey" />
         <Variable x:TypeArguments="x:String" Default="https://api.openweathermap.org/data/2.5/weather?/" Name="strAPI_EndPoint" />
         <Variable x:TypeArguments="x:Int32" Name="strResponseStatus" />
         <Variable x:TypeArguments="x:String" Name="strResponse" />
